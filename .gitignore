@@ -52,12 +52,34 @@ Mkfile.old
 dkms.conf
 
 
+# Unity specific
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+[Mm]emoryCaptures/
 UserSettings/
-Packages/
-ProjectSettings/
+
+# Visual Studio / JetBrains Rider
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Other
+*.apk
+*.aab
+*.unitypackage
+
